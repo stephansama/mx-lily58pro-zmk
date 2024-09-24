@@ -9,8 +9,8 @@
 #include <dt-bindings/zmk/keys.h>
 
 &mt {
-    tapping-term-ms = <300>;
-    flavor = "tap-preferred";
+    tapping-term-ms = <250>;
+    flavor = "tap-unless-interrupted";
 };
 
 / {
@@ -20,24 +20,6 @@
         Spotlight {
             bindings = <&kp LG(SPACE)>;
             key-positions = <53 54>;
-        };
-    };
-
-    behaviors {
-        esc_ctrl: esc_ctrl {
-            compatible = "zmk,behavior-tap-dance";
-            label = "ESC_CTRL";
-            #binding-cells = <0>;
-            bindings = <&kp ESCAPE>, <&kp LCTRL>;
-        };
-
-        tap_esc: tap_esc {
-            compatible = "zmk,behavior-hold-tap";
-            label = "TAP_ESC";
-            bindings = <&kp>, <&esc_ctrl>;
-
-            #binding-cells = <2>;
-            tapping-term-ms = <200>;
         };
     };
 
