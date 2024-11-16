@@ -7,5 +7,5 @@
 
 ## Images
 
-![Default Layer](https://imgur.com/qvmzChp)
-![Second Layer](https://imgur.com/75DlEN4)
+![Default Layer](https://i.imgur.com/qvmzChp.png)
+![Second Layer](https://i.imgur.com/75DlEN4.png)
