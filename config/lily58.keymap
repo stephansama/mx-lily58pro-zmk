@@ -74,11 +74,11 @@
 
             display-name = "Raise";
             bindings = <
-&sys_reset      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                    &trans  &kp N7  &kp N8  &kp N9  &trans  &trans
-&bt BT_CLR      &trans        &trans        &trans        &trans        &trans                          &trans  &kp N4  &kp N5  &kp N6  &trans  &trans
-&bt BT_CLR_ALL  &trans        &trans        &trans        &trans        &trans                          &trans  &kp N1  &kp N2  &kp N3  &trans  &trans
-&trans          &trans        &trans        &trans        &trans        &trans        &trans    &trans  &trans  &trans  &kp N0  &trans  &trans  &trans
-                                            &trans        &trans        &trans        &trans    &trans  &trans  &trans  &trans
+&sys_reset      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                    &trans         &kp N7  &kp N8  &kp N9  &trans  &trans
+&bt BT_CLR      &trans        &trans        &trans        &trans        &trans                          &kp BACKSPACE  &kp N4  &kp N5  &kp N6  &trans  &trans
+&bt BT_CLR_ALL  &trans        &trans        &trans        &trans        &trans                          &trans         &kp N1  &kp N2  &kp N3  &trans  &trans
+&trans          &trans        &trans        &trans        &trans        &trans        &trans    &trans  &trans         &trans  &kp N0  &trans  &trans  &trans
+                                            &trans        &trans        &trans        &trans    &trans  &trans         &trans  &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
