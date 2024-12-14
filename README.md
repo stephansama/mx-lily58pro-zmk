@@ -4,6 +4,7 @@
 
 - [ZMK Docs](https://zmk.dev/docs)
 - [Typeractive Docs](https://docs.typeractive.xyz/build-guides/lily58-wireless)
+- [3D Keycap Lame Keycap set](https://3dkeycap.com/products/mx-lame-keycap-set-low-profile-ergonomic-sculpted-keycaps)
 
 ## Images
 
