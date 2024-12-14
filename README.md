@@ -8,6 +8,6 @@
 
 ## Images
 
-![Keymap](./keymap.svg)
+![Keymap](./image/keymap.svg)
 ![Complete setup](https://i.imgur.com/AnPLryn.png)
 ![Tenting solution](https://i.imgur.com/jBpsva7.png)
