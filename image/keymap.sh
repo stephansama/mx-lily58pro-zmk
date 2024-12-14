@@ -6,4 +6,4 @@ echo "Parsing ZMK keymap..."
 keymap parse -z $KEYMAP >keymap.yaml
 
 printf "\n\nDrawing keymap..."
-keymap draw keymap.yaml >keymap.svg
+keymap -c image.yaml draw keymap.yaml >keymap.svg
